@@ -1,0 +1,576 @@
+{
+  "meta": {
+    "project": "Dr James Chess Academy Landing Page",
+    "version": "2.0",
+    "author": "Antigravity",
+    "format": "structured-json-for-frontend",
+    "notes": "Concise 'straight to the point' copy."
+  },
+  "header": {
+    "logo": {
+      "src": "images/logo.png",
+      "alt": "Dr James Chess Academy logo"
+    },
+    "nav": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Programs", "href": "#programs" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "props": {
+        "heading": "Master Chess. Build Confidence.",
+        "subheading": "Personalised coaching for ages 5+. From absolute beginners to tournament winners.",
+        "primary_cta": { "label": "Book a Free Trial", "href": "/book-trial" },
+        "secondary_cta": {
+          "label": "Speak to Coach",
+          "href": "mailto:drjameschess@gmail.com"
+        },
+        "background_image": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?q=80&w=2070",
+        "aria_label": "Hero: Master Chess. Build Confidence."
+      }
+    },
+    {
+      "id": "badges",
+      "type": "badges",
+      "props": {
+        "items": [
+          "Trusted by 100+ Parents",
+          "Beginner Friendly",
+          "1-to-1 & Group Classes",
+          "Expert Coaches",
+          "Tracked Progress"
+        ]
+      }
+    },
+    {
+      "id": "about",
+      "type": "content",
+      "props": {
+        "heading": "Why Chess?",
+        "body": [
+          "Chess is more than specific moves—it's about focus, strategy, and resilience.",
+          "We offer patient, structured coaching designed specifically for young minds."
+        ],
+        "subsections": [
+          {
+            "heading": "Our Approach",
+            "bullets": [
+              "Adapt to every child's pace.",
+              "Visible progress tracking.",
+              "Fun first, mastery second."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "why-parents",
+      "type": "features",
+      "props": {
+        "heading": "Why Us?",
+        "features": [
+          {
+            "title": "Patient Coaches",
+            "description": "We ensure every lesson is clear and stress-free."
+          },
+          {
+            "title": "Structured Learning",
+            "description": "Step-by-step roadmap from basics to advanced tactics."
+          },
+          {
+            "title": "Flexible Formats",
+            "description": "1-to-1, small groups, online or in-person."
+          },
+          {
+            "title": "Perfect Match",
+            "description": "We match students with the right coach for their style."
+          },
+          {
+            "title": "Tournament Ready",
+            "description": "Full support for local and international competitions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "programs",
+      "type": "program-list",
+      "props": {
+        "heading": "Our Programs",
+        "programs": [
+          {
+            "slug": "beginner",
+            "title": "Beginner (Rating 0–800)",
+            "summary": "For kids with zero experience.",
+            "outcomes": [
+              "Piece movements",
+              "Check & Checkmate",
+              "Basic tactics"
+            ],
+            "recommended_age_range": "5-10",
+            "lesson_format": ["1-to-1", "Group"]
+          },
+          {
+            "slug": "intermediate",
+            "title": "Intermediate (Rating 800–1400)",
+            "summary": "Refine strategy and openings.",
+            "outcomes": [
+              "Opening systems",
+              "Tactical motifs",
+              "Endgame patterns"
+            ],
+            "recommended_age_range": "8-14",
+            "lesson_format": ["1-to-1", "Group"]
+          },
+          {
+            "slug": "competitive",
+            "title": "Competitive (Rating 1400+)",
+            "summary": "For serious tournament players.",
+            "outcomes": [
+              "Deep opening study",
+              "Positional mastery",
+              "Calculation discipline"
+            ],
+            "recommended_age_range": "10+",
+            "lesson_format": ["1-to-1", "Intensive"]
+          },
+          {
+            "slug": "holiday-camps",
+            "title": "Holiday Camps",
+            "summary": "Short, intensive, fun sessions.",
+            "outcomes": [
+              "Rapid skill boost",
+              "Fun group activities",
+              "Mini-tournaments"
+            ],
+            "recommended_age_range": "5-16",
+            "lesson_format": ["Camp"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "props": {
+        "heading": "Academy in Action",
+        "images": [
+          {
+            "src": "images/gallery/image-1.jpg",
+            "link": "https://www.instagram.com/p/DPdWWdBgePw/"
+          },
+          {
+            "src": "images/gallery/image-2.jpg",
+            "link": "https://www.instagram.com/p/DIF-1MXxh79/?img_index=2"
+          },
+          {
+            "src": "images/gallery/image-3.jpg",
+            "link": "https://www.instagram.com/p/DMZ16e4xaOf/"
+          },
+          {
+            "src": "images/gallery/image-4.jpg",
+            "link": "https://www.instagram.com/p/DCrHcE3yL0V/?img_index=1"
+          },
+          {
+            "src": "images/gallery/image-5.jpg",
+            "link": "https://www.instagram.com/p/C6IKSuUxPse/?img_index=1"
+          },
+          {
+            "src": "images/gallery/image-6.jpg",
+            "link": "https://www.instagram.com/p/C5fR39dxi40/?img_index=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "props": {
+        "heading": "Parent Reviews",
+        "items": [
+          {
+            "quote": "Isaac went from 600 to 1300 rating in just 2 months! Exactly what we hoped for.",
+            "author": "Isaac's Parent"
+          },
+          {
+            "quote": "Anthony secured 3rd place in his recent tournament. We're amazed by his growth.",
+            "author": "Anthony's Parent"
+          },
+          {
+            "quote": "The coaches are patient and supportive. Real results.",
+            "author": "Brandon's Parent"
+          },
+          {
+            "quote": "Yu Sing's confidence has improved so much. The structured approach works!",
+            "author": "Yu Sing's Parent"
+          }
+        ]
+      }
+    },
+    {
+      "id": "class-features",
+      "type": "bullets",
+      "props": {
+        "heading": "What You Get",
+        "bullets": [
+          "Live interactive coaching",
+          "Customised lessons",
+          "Homework & Puzzles",
+          "Game Analysis",
+          "Progress Reports",
+          "Safe Environment"
+        ]
+      }
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "props": {
+        "heading": "Pricing",
+        "note": "Group trials are FREE.",
+        "plans": [
+          {
+            "name": "1-to-1 Private",
+            "price_myr": 130,
+            "price_sgd": 40,
+            "price_suffix": "per hour",
+            "features": [
+              "Personalised plan",
+              "Progress tracking",
+              "100% Tailored"
+            ]
+          },
+          {
+            "name": "Small Group",
+            "price_myr": 35,
+            "price_sgd": 35,
+            "price_suffix": "per student/class",
+            "features": ["Social learning", "Affordable", "Collaborative"]
+          },
+          {
+            "name": "Group Trial",
+            "price_myr": 0,
+            "price_sgd": 0,
+            "price_suffix": "FREE",
+            "features": ["Try our style", "No commitment", "Risk-free"]
+          },
+          {
+            "name": "1-on-1 Trial",
+            "price_myr": 130,
+            "price_sgd": 40,
+            "price_suffix": "per hour",
+            "features": ["Full experience", "Normal rate", "Tailored start"]
+          }
+        ],
+        "cta": { "label": "Full Pricing", "href": "/pricing" }
+      }
+    },
+    {
+      "id": "faqs",
+      "type": "faqs",
+      "props": {
+        "heading": "FAQ",
+        "items": [
+          {
+            "q": "What age to start?",
+            "a": "As young as 5 years old."
+          },
+          {
+            "q": "Complete beginners?",
+            "a": "Yes! We have a dedicated beginner program."
+          },
+          {
+            "q": "Tournament prep?",
+            "a": "Absolutely. We guide, analyze, and prepare champions."
+          },
+          {
+            "q": "Is online effective?",
+            "a": "Yes. Interactive boards and live coaching make it seamless."
+          }
+        ]
+      }
+    },
+    {
+      "id": "final-cta",
+      "type": "cta",
+      "props": {
+        "heading": "Start Your Journey",
+        "subheading": "Book a trial today.",
+        "primary_cta": { "label": "Book Trial", "href": "/book-trial" },
+        "secondary_cta": {
+          "label": "WhatsApp Us",
+          "href": "https://wa.me/60123020426"
+        }
+      }
+    }
+  ],
+  "footer": {
+    "contact": {
+      "email": "drjameschess@gmail.com",
+      "phone": "+60123020426",
+      "address": "Petaling Jaya, Malaysia",
+      "whatsapp_contacts": [
+        {
+          "name": "Dr James",
+          "href": "https://wa.me/60125282338"
+        },
+        {
+          "name": "Zac",
+          "href": "https://wa.me/60123020426"
+        }
+      ],
+      "messenger_links": [
+        {
+          "platform": "Messenger",
+          "href": "https://m.me/61562953537714",
+          "icon": "facebook"
+        },
+        {
+          "platform": "Instagram",
+          "href": "https://ig.me/m/chesscoachdrjames",
+          "icon": "instagram"
+        }
+      ]
+    },
+    "social": [
+      {
+        "platform": "Facebook",
+        "href": "https://www.facebook.com/profile.php?id=61562953537714"
+      },
+      {
+        "platform": "Instagram",
+        "href": "https://www.instagram.com/chesscoachdrjames"
+      }
+    ],
+    "legal": [
+      { "label": "Terms", "href": "/terms" },
+      { "label": "Privacy", "href": "/privacy" }
+    ]
+  },
+  "localizations": {
+    "zh-HK": {
+      "meta": {
+        "language": "中文 (繁體，香港)",
+        "note": "Mandarin copy for Hong Kong audience (Traditional Chinese)."
+      },
+      "header": {
+        "nav": [
+          { "label": "主頁", "href": "#home" },
+          { "label": "課程", "href": "#programs" },
+          { "label": "相簿", "href": "#gallery" },
+          { "label": "收費", "href": "#pricing" },
+          { "label": "聯絡", "href": "#contact" }
+        ]
+      },
+      "sections": {
+        "hero": {
+          "heading": "啟發潛能，從棋開始。",
+          "subheading": "個人化教學，培養專注與策略。適合5歲以上。",
+          "primary_cta": { "label": "預約試堂", "href": "/book-trial" },
+          "secondary_cta": {
+            "label": "聯絡教練",
+            "href": "mailto:drjameschess@gmail.com"
+          }
+        },
+        "badges": {
+          "items": [
+            "家長信賴",
+            "初學友善",
+            "一對一/小組",
+            "專業教練",
+            "進度追蹤"
+          ]
+        },
+        "about": {
+          "heading": "關於我們",
+          "body": [
+            "西洋棋不只是遊戲，更是培養專注力與解難能力的途徑。",
+            "我們專注於耐心、有結構的兒童教學。"
+          ],
+          "subsections": [
+            {
+              "heading": "教學理念",
+              "bullets": ["因材施教", "可視化進步", "寓教於樂"]
+            }
+          ]
+        },
+        "why-parents": {
+          "heading": "為何選擇我們",
+          "features": [
+            {
+              "title": "耐心教練",
+              "description": "耐心引導，無壓力學習。"
+            },
+            {
+              "title": "系統化課程",
+              "description": "循序漸進，從基礎到競賽。"
+            },
+            {
+              "title": "彈性上課",
+              "description": "線上/面授，時間靈活。"
+            },
+            {
+              "title": "完美配對",
+              "description": "根據性格與程度配對教練。"
+            },
+            {
+              "title": "比賽支援",
+              "description": "全面備賽指導。"
+            }
+          ]
+        },
+        "programs": {
+          "heading": "課程內容",
+          "programs": [
+            {
+              "slug": "beginner",
+              "title": "初級 (0–800)",
+              "summary": "適合零基礎。",
+              "outcomes": ["基本走法", "將軍/逼和", "基礎戰術"],
+              "recommended_age_range": "5-10"
+            },
+            {
+              "slug": "intermediate",
+              "title": "中級 (800–1400)",
+              "summary": "提升戰術策略。",
+              "outcomes": ["開局系統", "中局戰術", "殘局基礎"],
+              "recommended_age_range": "8-14"
+            },
+            {
+              "slug": "competitive",
+              "title": "競賽組 (1400+)",
+              "summary": "針對比賽選手。",
+              "outcomes": ["深度開局", "局面理解", "計算訓練"],
+              "recommended_age_range": "10+"
+            },
+            {
+              "slug": "holiday-camps",
+              "title": "假期營",
+              "summary": "短期密集衝刺。",
+              "outcomes": ["快速提升", "趣味競賽", "團體互動"],
+              "recommended_age_range": "5-16"
+            }
+          ]
+        },
+        "testimonials": {
+          "heading": "家長好評",
+          "items": [
+            { "quote": "孩子每堂課都很期待。", "author": "家長 A" },
+            { "quote": "專注力明顯提升。", "author": "家長 B" },
+            { "quote": "進步真實可見！", "author": "家長 C" }
+          ]
+        },
+        "gallery": {
+          "heading": "精彩時刻",
+          "images": [
+            {
+              "src": "images/gallery/image-1.jpg",
+              "link": "https://www.instagram.com/p/DPdWWdBgePw/"
+            },
+            {
+              "src": "images/gallery/image-2.jpg",
+              "link": "https://www.instagram.com/p/DIF-1MXxh79/?img_index=2"
+            },
+            {
+              "src": "images/gallery/image-3.jpg",
+              "link": "https://www.instagram.com/p/DMZ16e4xaOf/"
+            },
+            {
+              "src": "images/gallery/image-4.jpg",
+              "link": "https://www.instagram.com/p/DCrHcE3yL0V/?img_index=1"
+            },
+            {
+              "src": "images/gallery/image-5.jpg",
+              "link": "https://www.instagram.com/p/C6IKSuUxPse/?img_index=1"
+            },
+            {
+              "src": "images/gallery/image-6.jpg",
+              "link": "https://www.instagram.com/p/C5fR39dxi40/?img_index=5"
+            }
+          ]
+        },
+        "class-features": {
+          "heading": "課程特色",
+          "bullets": [
+            "實時互動",
+            "客製化教學",
+            "課後練習",
+            "對局分析",
+            "進度報告",
+            "友善環境"
+          ]
+        },
+        "pricing": {
+          "heading": "收費方案",
+          "note": "試堂免費體驗。",
+          "plans": [
+            {
+              "name": "一對一",
+              "price_display": "RM 130 / S$ 40 起",
+              "features": ["個人化計畫", "進度追蹤"]
+            },
+            {
+              "name": "小組課",
+              "price_display": "RM 35 / S$ 35 起",
+              "features": ["社交學習", "經濟實惠"]
+            },
+            {
+              "name": "免費試堂",
+              "price_display": "免費",
+              "features": ["零風險體驗"]
+            }
+          ],
+          "cta": { "label": "完整收費表", "href": "/pricing" }
+        },
+        "faqs": {
+          "heading": "常問問題",
+          "items": [
+            { "q": "幾歲開始？", "a": "5歲起。" },
+            {
+              "q": "零基礎？",
+              "a": "有專門的初級班。"
+            },
+            {
+              "q": "比賽準備？",
+              "a": "有，我們會協助備賽。"
+            },
+            {
+              "q": "線上有效？",
+              "a": "非常有效，互動性高。"
+            }
+          ]
+        },
+        "final-cta": {
+          "heading": "立即開始",
+          "subheading": "預約試堂，發掘潛能。",
+          "primary_cta": { "label": "預約試堂", "href": "/book-trial" },
+          "secondary_cta": {
+            "label": "WhatsApp 查詢",
+            "href": "https://wa.me/60123020426"
+          }
+        }
+      },
+      "footer": {
+        "contact": {
+          "email": "drjameschess@gmail.com",
+          "phone": "+60123020426",
+          "address": "馬來西亞"
+        },
+        "social": [
+          { "platform": "Facebook", "href": "#" },
+          { "platform": "Instagram", "href": "#" }
+        ],
+        "legal": [
+          { "label": "條款", "href": "/terms" },
+          { "label": "私隱", "href": "/privacy" }
+        ]
+      }
+    }
+  }
+}
