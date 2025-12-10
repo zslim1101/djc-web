@@ -601,7 +601,7 @@ export default function Home() {
               >
                 <div className="relative z-10">
                   <h3 className="text-2xl font-bold mb-4 text-gradient">
-                    1-to-1 Private Coaching
+                    Online 1-to-1 Private Coaching
                   </h3>
                   <p className="text-4xl font-bold text-black mb-2">
                     {currency === "MYR" ? "RM" : "S$"}{" "}
@@ -678,7 +678,7 @@ export default function Home() {
               >
                 <div className="relative z-10">
                   <h3 className="text-2xl font-bold mb-4 text-gradient">
-                    Small Group Classes
+                    Online Small Group Classes
                   </h3>
                   <p className="text-4xl font-bold text-black mb-2">
                     {currency === "MYR" ? "RM" : "S$"} 35
@@ -742,7 +742,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {pricingSection.props.cta && (
+            {/* {pricingSection.props.cta && (
               <div className="text-center mt-12">
                 <a href={pricingSection.props.cta.href}>
                   <button className="btn-primary text-lg">
@@ -750,7 +750,7 @@ export default function Home() {
                   </button>
                 </a>
               </div>
-            )}
+            )} */}
           </div>
         </section>
       )}

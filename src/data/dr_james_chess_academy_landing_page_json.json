@@ -25,11 +25,14 @@
       "type": "hero",
       "props": {
         "heading": "Master Chess. Build Confidence.",
-        "subheading": "Personalised coaching for ages 5+. From absolute beginners to tournament winners.",
-        "primary_cta": { "label": "Book a Free Trial", "href": "/book-trial" },
+        "subheading": "Personalised Online coaching for ages 5+. From absolute beginners to tournament winners.",
+        "primary_cta": {
+          "label": "Book a Free Trial",
+          "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+        },
         "secondary_cta": {
           "label": "Speak to Coach",
-          "href": "mailto:drjameschess@gmail.com"
+          "href": "https://ig.me/m/chesscoachdrjames"
         },
         "background_image": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?q=80&w=2070",
         "aria_label": "Hero: Master Chess. Build Confidence."
@@ -42,7 +45,7 @@
         "items": [
           "Trusted by 100+ Parents",
           "Beginner Friendly",
-          "1-to-1 & Group Classes",
+          "Online 1-to-1 & Group Classes",
           "Expert Coaches",
           "Tracked Progress"
         ]
@@ -85,7 +88,7 @@
           },
           {
             "title": "Flexible Formats",
-            "description": "1-to-1, small groups, online or in-person."
+            "description": "1-to-1, small groups. Fully Online."
           },
           {
             "title": "Perfect Match",
@@ -236,7 +239,7 @@
         "note": "Group trials are FREE.",
         "plans": [
           {
-            "name": "1-to-1 Private",
+            "name": "1-to-1 Private Online",
             "price_myr": 130,
             "price_sgd": 40,
             "price_suffix": "per hour",
@@ -247,7 +250,7 @@
             ]
           },
           {
-            "name": "Small Group",
+            "name": "Online Small Group",
             "price_myr": 35,
             "price_sgd": 35,
             "price_suffix": "per student/class",
@@ -302,7 +305,10 @@
       "props": {
         "heading": "Start Your Journey",
         "subheading": "Book a trial today.",
-        "primary_cta": { "label": "Book Trial", "href": "/book-trial" },
+        "primary_cta": {
+          "label": "Book Trial",
+          "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+        },
         "secondary_cta": {
           "label": "WhatsApp Us",
           "href": "https://wa.me/60123020426"
@@ -372,10 +378,13 @@
         "hero": {
           "heading": "啟發潛能，從棋開始。",
           "subheading": "個人化教學，培養專注與策略。適合5歲以上。",
-          "primary_cta": { "label": "預約試堂", "href": "/book-trial" },
+          "primary_cta": {
+            "label": "預約試堂",
+            "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+          },
           "secondary_cta": {
             "label": "聯絡教練",
-            "href": "mailto:drjameschess@gmail.com"
+            "href": "https://ig.me/m/chesscoachdrjames"
           }
         },
         "badges": {
@@ -549,7 +558,10 @@
         "final-cta": {
           "heading": "立即開始",
           "subheading": "預約試堂，發掘潛能。",
-          "primary_cta": { "label": "預約試堂", "href": "/book-trial" },
+          "primary_cta": {
+            "label": "預約試堂",
+            "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+          },
           "secondary_cta": {
             "label": "WhatsApp 查詢",
             "href": "https://wa.me/60123020426"
