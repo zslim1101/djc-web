@@ -30,6 +30,20 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
+      {/* Logo - Fixed position top-left */}
+      <a
+        href="https://www.instagram.com/chesscoachdrjames"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed top-6 left-6 z-50 transition-transform hover:scale-105"
+      >
+        <img
+          src={header.logo.src}
+          alt={header.logo.alt}
+          className="w-14 h-14 md:w-18 md:h-18 rounded-full shadow-lg border-2 border-white/50"
+        />
+      </a>
+
       {/* Currency Switcher - Fixed position */}
       <div className="fixed top-6 right-6 z-50 glass-effect rounded-full px-6 py-3 flex items-center gap-3 shadow-lg">
         <span
