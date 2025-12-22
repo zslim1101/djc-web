@@ -28,11 +28,11 @@
         "subheading": "Personalised Online coaching for ages 5+. From absolute beginners to tournament winners.",
         "primary_cta": {
           "label": "Book a Free Trial",
-          "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+          "href": "#register-interest"
         },
         "secondary_cta": {
           "label": "Speak to Coach",
-          "href": "https://ig.me/m/chesscoachdrjames"
+          "href": "https://wa.me/60123020426"
         },
         "background_image": "https://images.unsplash.com/photo-1560174038-da43ac74f01b?q=80&w=2070",
         "aria_label": "Hero: Master Chess. Build Confidence."
@@ -307,7 +307,7 @@
         "subheading": "Book a trial today.",
         "primary_cta": {
           "label": "Book Trial",
-          "href": "https://wa.me/60125282338?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+          "href": "#register-interest"
         },
         "secondary_cta": {
           "label": "WhatsApp Us",
@@ -380,7 +380,7 @@
           "subheading": "個人化教學，培養專注與策略。適合5歲以上。",
           "primary_cta": {
             "label": "預約試堂",
-            "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+            "href": "#register-interest"
           },
           "secondary_cta": {
             "label": "聯絡教練",
@@ -560,7 +560,7 @@
           "subheading": "預約試堂，發掘潛能。",
           "primary_cta": {
             "label": "預約試堂",
-            "href": "https://wa.me/60123020426?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20trial"
+            "href": "#register-interest"
           },
           "secondary_cta": {
             "label": "WhatsApp 查詢",
