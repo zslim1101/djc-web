@@ -1,7 +1,7 @@
 "use client";
-
 import { useState } from "react";
 import landingData from "@/data/dr_james_chess_academy_landing_page_json.json";
+import RegisterInterestForm from "./components/RegisterInterestForm";
 
 type Currency = "SGD" | "MYR";
 
@@ -824,6 +824,9 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      {/* Register Interest Form */}
+      <RegisterInterestForm />
 
       {/* Footer */}
       <footer className="py-12 px-6 bg-marble-light border-t border-gray-300">
