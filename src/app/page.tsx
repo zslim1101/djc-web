@@ -594,7 +594,7 @@ export default function Home() {
       {pricingSection && (
         <section
           id="pricing"
-          className="py-24 px-6 bg-linear-to-b from-marble-light to-pure-white"
+          className="py-24 px-6 bg-linear-to-b from-marble-light to-pure-white hidden"
         >
           <div className="container mx-auto max-w-5xl">
             <h2 className="section-title text-center text-gradient mb-4">
